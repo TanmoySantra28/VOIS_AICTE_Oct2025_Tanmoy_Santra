@@ -150,6 +150,8 @@ QUESTION 8: What is the average review rate by neighbourhood group and room type
 
 ```
 <img width="794" height="660" alt="image" src="https://github.com/user-attachments/assets/12f66cf4-8f32-4b4d-9bec-9169ba27fe09" /> 
+
+
 ```
 Average Review Rates by Room Type:
 • Entire home/apt: 3.27/5 stars
@@ -181,4 +183,3 @@ Analysis completed successfully!
 ================================================================================
 
 Results saved to 'airbnb_analysis_summary.csv'
-```
