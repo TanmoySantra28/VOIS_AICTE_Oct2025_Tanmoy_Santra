@@ -1,4 +1,5 @@
- Loading Airbnb NYC Dataset...
+```
+Loading Airbnb NYC Dataset...
 Dataset loaded successfully!
 Dataset shape: (102599, 26)
 
@@ -136,7 +137,9 @@ Answer: Verified hosts have 0.015 points higher average rating
 
 QUESTION 7: Is there a correlation between listing price and service fee?
 ------------------------------------------------------------
+```
 <img width="989" height="790" alt="image" src="https://github.com/user-attachments/assets/1e9cb5c0-47ea-4574-a656-e383e5458818" />
+```
 Correlation between Price and Service Fee: 1.0000
 Average Price: $625.19
 Average Service Fee: $125.04
@@ -144,7 +147,9 @@ Service Fee as % of Price: 20.00%
 
 QUESTION 8: What is the average review rate by neighbourhood group and room type?
 ------------------------------------------------------------
+```
 <img width="794" height="660" alt="image" src="https://github.com/user-attachments/assets/12f66cf4-8f32-4b4d-9bec-9169ba27fe09" />
+```
 Average Review Rates by Room Type:
 • Entire home/apt: 3.27/5 stars
 • Hotel room: 3.53/5 stars
@@ -175,3 +180,4 @@ Analysis completed successfully!
 ================================================================================
 
 Results saved to 'airbnb_analysis_summary.csv'
+```
