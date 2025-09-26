@@ -135,8 +135,50 @@ Review Ratings by Verification Status:
 
 Answer: Verified hosts have 0.015 points higher average rating
 
-QUESTION 7: Is there a correlation between listing price and service fee? 
-------------------------------------------------------------
+QUESTION 7: Is there a correlation between listing price and service fee?
+
 ```
 <img width="989" height="790" alt="image" src="https://github.com/user-attachments/assets/1e9cb5c0-47ea-4574-a656-e383e5458818" /> 
 
+```
+Correlation between Price and Service Fee: 1.0000
+Average Price: $625.19
+Average Service Fee: $125.04
+Service Fee as % of Price: 20.00%
+
+QUESTION 8: What is the average review rate by neighbourhood group and room type?
+
+```
+<img width="794" height="660" alt="image" src="https://github.com/user-attachments/assets/12f66cf4-8f32-4b4d-9bec-9169ba27fe09" /> 
+```
+Average Review Rates by Room Type:
+• Entire home/apt: 3.27/5 stars
+• Hotel room: 3.53/5 stars
+• Private room: 3.28/5 stars
+• Shared room: 3.31/5 stars
+
+QUESTION 9: Are hosts with higher calculated host listings more likely to maintain higher availability?
+------------------------------------------------------------
+Correlation between Host Listing Count and Availability: 0.1592
+
+Average Availability by Host Category:
+• Large host (21+): 242.68 days (based on 5764 hosts)
+• Medium host (6-20): 233.86 days (based on 6478 hosts)
+• Single listing (1): 114.7 days (based on 63153 hosts)
+• Small host (2-5): 159.25 days (based on 26437 hosts)
+
+================================================================================
+ANALYSIS SUMMARY
+================================================================================
+Dataset analyzed: 102,599 Airbnb listings in NYC
+Key Insights:
+• Most common property type: Entire home/apt (53701 listings)
+• Highest volume neighbourhood: Manhattan (43792 listings)
+• Highest average price neighbourhood: Queens ($630.21)
+• Construction year impact on price: Strong (r=1.000)
+
+Analysis completed successfully!
+================================================================================
+
+Results saved to 'airbnb_analysis_summary.csv'
+```
